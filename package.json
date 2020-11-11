@@ -1,12 +1,12 @@
 {
   "name": "perfect-lineup",
   "version": "1.0.0",
-  "description": "",
+  "description": "In the initial commit to this project, you have been provided with files that contain a JavaScript module and some associated tests. Your task is to implement a `validateLineup` function that will return `true` if the lineup provided adheres to all of the rules listed below.",
   "main": "index.js",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint --format codeframe .",
-    "lint:fix": "./node_modules/.bin/eslint --fix --format codeframe .",
-    "test": "./node_modules/.bin/mocha tests.js"
+    "lint": "eslint --format codeframe .",
+    "lint:fix": "eslint --fix --format codeframe .",
+    "test": "mocha tests.js"
   },
   "repository": {
     "type": "git",
